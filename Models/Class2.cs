@@ -8,6 +8,7 @@ namespace Practica3_PrograWeb.Models
         public int Class2Id { get; set; }
 
         public string Description { get; set; }
+        public string nombre { get; set;}
 
         // Relación con Class1
         public ICollection<Class1> RelatedClass1s { get; set; }
