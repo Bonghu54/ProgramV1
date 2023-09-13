@@ -10,7 +10,6 @@ namespace Practica3_PrograWeb.Models
         public string SomeProperty { get; set; }
         public int edad { get; set; }
 
-        // Relación con Class1
         public ICollection<Class1> RelatedClass1s { get; set; }
     }
 }
